@@ -84,46 +84,91 @@
     </div>
 </section>
 
+<!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Notre équipe est à votre écoute pour répondre à toutes vos questions</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Adresse</h3>
+                        <p>45 Avenue des Champs-Élysées<br>75008 Paris, France</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Téléphone</h3>
+                        <p>+33 1 42 56 78 90<br>Lun-Ven: 9h-18h</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>contact@optivisionpro.fr<br>support@optivisionpro.fr</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Horaires</h3>
+                        <p>Lundi - Vendredi: 9h - 18h<br>Samedi: 10h - 16h</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom complet</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telephone">Téléphone</label>
+                                <input type="tel" id="telephone" name="telephone">
+                            </div>
+                            <div class="form-group">
+                                <label for="sujet">Sujet</label>
+                                <select id="sujet" name="sujet" required>
+                                    <option value="">Sélectionnez un sujet</option>
+                                    <option value="devis">Demande de devis</option>
+                                    <option value="rdv">Prise de rendez-vous</option>
+                                    <option value="info">Informations produits</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            Envoyer le message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
 
     <script src="js/accueil.js"></script>
 </body>
 </html>
-    
-<!-- À Propos Section -->
-<section id="apropos" class="about">
-    <div class="container">
-        <div class="about-content">
-            <div class="about-text">
-                <div class="section-header">
-                    <h2 class="section-title">Notre Expertise</h2>
-                    <p class="section-subtitle">25 ans d'excellence au service de votre vision</p>
-                </div>
-                <p>Depuis 1998, OptiVision Pro s'est imposé comme un acteur majeur dans le domaine de l'optique médicale en France. Notre mission est simple : offrir à chaque patient des solutions visuelles de haute précision, alliant technologie de pointe et savoir-faire artisanal.</p>
-                <p>Nous collaborons étroitement avec un réseau de plus de 500 ophtalmologistes et opticiens partenaires pour garantir un service de qualité médicale irréprochable.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">50,000+</div>
-                        <div class="stat-label">Patients satisfaits</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">Partenaires médicaux d'afrique centrale</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">25</div>
-                        <div class="stat-label">Années d'expérience</div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-image">
-                <img src="https://image.pollinations.ai/prompt/modern%20optical%20laboratory%20precision%20equipment%20medical%20glasses%20manufacturing?safe=true&nologo=true&width=800&height=600&seed=123" alt="Laboratoire optique moderne">
-            </div>
-        </div>
-    </div>
-</section>
-
 
     
 
