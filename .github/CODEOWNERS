@@ -1,0 +1,6 @@
+# Fichier CODEOWNERS
+# Chaque ligne associe un chemin de fichier ou dossier à un ou plusieurs propriétaires.
+# Les propriétaires sont mentionnés par leur pseudo GitHub précédé d’un @
+
+# Tous les fichiers du dépôt
+* @zerty913junior
